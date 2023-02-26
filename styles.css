@@ -1,0 +1,70 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("images/wladislaw-sokolowskij-0vw4InAC-yM-unsplash.jpg");
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    color: #472183;
+    margin: 0;
+}
+
+h1{
+    font-size: 4rem;
+    font-weight: normal;
+    margin-top: 10rem;
+}
+.countdown-container{
+    display: flex;
+}
+
+.big-text{
+    font-size: 6rem;
+    font-weight: bold;
+    line-height: 1;
+    margin: 0 5rem;
+}
+
+.countdown-el{
+    text-align: center;
+}
+
+.countdown-el span{
+    font-size: 1.3rem;
+}
+
+/* Media queries for smaller screens */
+@media screen and (max-width:768px) {
+    body{
+        margin: auto;
+    }
+    h1{
+        font-size: 2rem;
+        margin-top: 5rem;
+    }
+    .big-text{
+        font-size: 4.5rem;
+        margin: 0 2.5rem;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width: 650px) {
+    body{
+        margin: auto;
+    }
+    h1{
+        font-size: 2.5rem;
+        margin-top: 10rem;
+    }
+    .big-text{
+        font-size: 2rem;
+        margin: 0 2rem;
+    }
+}
